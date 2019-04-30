@@ -3,6 +3,10 @@ body {
   padding-top: px;
 }
 
-.latest-stories{
+.latest-stories {
   border-right: 1px lightgray solid;
+  @include media-breakpoint-up(sm) {
+    border-right: none;
+  }
 }
+
